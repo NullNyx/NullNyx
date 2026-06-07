@@ -1,46 +1,51 @@
 <svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">The Ngoc Backend Engineer Banner</title>
-  <desc id="desc">Dark GitHub profile banner with backend engineering focus.</desc>
+  <title id="title">The Ngoc terminal-style backend banner</title>
+  <desc id="desc">Dark terminal-inspired GitHub profile banner for a backend engineer.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="term" x1="88" y1="56" x2="1192" y2="264" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1220"/>
       <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="accent" x1="160" y1="64" x2="960" y2="256" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="180" y1="110" x2="560" y2="230" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#22D3EE"/>
-      <stop offset="1" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#10B981"/>
     </linearGradient>
-    <filter id="blur" x="0" y="0" width="1280" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="40"/>
-    </filter>
   </defs>
 
   <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
-
-  <g opacity="0.18" filter="url(#blur)">
-    <circle cx="1040" cy="72" r="84" fill="#22D3EE"/>
-    <circle cx="1110" cy="220" r="72" fill="#14B8A6"/>
-    <circle cx="860" cy="260" r="56" fill="#38BDF8"/>
+  <g opacity="0.08">
+    <path d="M0 40H1280M0 80H1280M0 120H1280M0 160H1280M0 200H1280M0 240H1280M0 280H1280" stroke="#38BDF8" stroke-width="1"/>
+    <path d="M80 0V320M160 0V320M240 0V320M320 0V320M400 0V320M480 0V320M560 0V320M640 0V320M720 0V320M800 0V320M880 0V320M960 0V320M1040 0V320M1120 0V320M1200 0V320" stroke="#38BDF8" stroke-width="1"/>
   </g>
 
-  <g opacity="0.12">
-    <path d="M760 64H1160" stroke="#94A3B8" stroke-width="1"/>
-    <path d="M760 128H1184" stroke="#94A3B8" stroke-width="1"/>
-    <path d="M760 192H1140" stroke="#94A3B8" stroke-width="1"/>
-    <path d="M760 256H1200" stroke="#94A3B8" stroke-width="1"/>
-    <path d="M820 32V288" stroke="#94A3B8" stroke-width="1"/>
-    <path d="M940 32V288" stroke="#94A3B8" stroke-width="1"/>
-    <path d="M1060 32V288" stroke="#94A3B8" stroke-width="1"/>
-    <path d="M1180 32V288" stroke="#94A3B8" stroke-width="1"/>
-  </g>
+  <rect x="88" y="56" width="1104" height="208" rx="18" fill="url(#term)" stroke="#1F2937"/>
+  <rect x="88" y="56" width="1104" height="34" rx="18" fill="#0F172A"/>
+  <circle cx="116" cy="73" r="5" fill="#FB7185"/>
+  <circle cx="136" cy="73" r="5" fill="#FBBF24"/>
+  <circle cx="156" cy="73" r="5" fill="#34D399"/>
+  <text x="560" y="78" fill="#94A3B8" font-family="JetBrains Mono,Consolas,Monaco,monospace" font-size="13" font-weight="500">terminal / profile</text>
 
-  <rect x="80" y="74" width="88" height="88" rx="20" fill="#0F172A" stroke="#1E293B"/>
-  <path d="M107 103H141" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
-  <path d="M107 118H153" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
-  <path d="M107 133H133" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
+  <text x="128" y="126" fill="#22C55E" font-family="JetBrains Mono,Consolas,Monaco,monospace" font-size="18">$ whoami</text>
+  <text x="260" y="126" fill="#E5E7EB" font-family="JetBrains Mono,Consolas,Monaco,monospace" font-size="18">The Ngoc</text>
 
-  <text x="200" y="112" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="0">The Ngoc</text>
-  <text x="200" y="154" fill="#22D3EE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="0">Backend Engineer</text>
-  <text x="200" y="204" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" letter-spacing="0">APIs • Data Systems • Developer Tooling</text>
-  <text x="200" y="240" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" letter-spacing="0">Node.js  •  TypeScript  •  Python  •  PostgreSQL  •  Docker</text>
+  <text x="128" y="162" fill="#22C55E" font-family="JetBrains Mono,Consolas,Monaco,monospace" font-size="18">$ role</text>
+  <text x="228" y="162" fill="#67E8F9" font-family="JetBrains Mono,Consolas,Monaco,monospace" font-size="18">Backend Engineer</text>
+
+  <text x="128" y="198" fill="#22C55E" font-family="JetBrains Mono,Consolas,Monaco,monospace" font-size="18">$ focus</text>
+  <text x="242" y="198" fill="#CBD5E1" font-family="JetBrains Mono,Consolas,Monaco,monospace" font-size="18">APIs, data systems, developer tooling</text>
+
+  <text x="128" y="234" fill="#22C55E" font-family="JetBrains Mono,Consolas,Monaco,monospace" font-size="18">$ stack</text>
+  <text x="242" y="234" fill="#94A3B8" font-family="JetBrains Mono,Consolas,Monaco,monospace" font-size="18">Node.js  TypeScript  Python  PostgreSQL  Docker</text>
+
+  <rect x="836" y="116" width="270" height="92" rx="14" fill="#0A0F1C" stroke="#1E293B"/>
+  <path d="M866 186L902 148L934 172L982 128L1032 164L1076 122" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="902" cy="148" r="4" fill="#22D3EE"/>
+  <circle cx="934" cy="172" r="4" fill="#22D3EE"/>
+  <circle cx="982" cy="128" r="4" fill="#22D3EE"/>
+  <circle cx="1032" cy="164" r="4" fill="#22D3EE"/>
+  <circle cx="1076" cy="122" r="4" fill="#22D3EE"/>
 </svg>
