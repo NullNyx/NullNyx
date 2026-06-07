@@ -4,12 +4,11 @@ Backend Engineer focused on APIs, data systems, and developer tooling.
 
 I build maintainable backend services with an emphasis on clean architecture, operational clarity, and practical product delivery.
 
-## Selected Work
-- [Vietnamese-Recruit-Onboard-Operate-Manage](https://github.com/NullNyx/Vietnamese-Recruit-Onboard-Operate-Manage) - Workflow-oriented platform for recruitment and operations management.
-- [battle-ship-svip](https://github.com/NullNyx/battle-ship-svip) - TypeScript project exploring structured application logic and state management.
+## Tech Stack
+Node.js, TypeScript, JavaScript, Python, PostgreSQL, Express, Docker
 
-## Stack
-Node.js, TypeScript, Python, PostgreSQL, Express, Docker
+## Focus Areas
+Backend architecture, API design, database-backed systems, workflow automation, and developer tooling.
 
 ## Contact
 - GitHub: [@NullNyx](https://github.com/NullNyx)
