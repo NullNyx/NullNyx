@@ -1,25 +1,17 @@
 # Hi, I'm The Ngoc
 
-Backend-focused software engineer based in Ha Noi, Viet Nam. I build practical web apps, APIs, internal tools, and AI-assisted workflows.
+Backend Engineer focused on APIs, data systems, and developer tooling.
 
-## Focus
-- Backend and API development
-- AI tooling and evaluation workflows
-- Full-stack product prototyping
-- Clean, maintainable implementation
+I build practical software with an emphasis on clean implementation, maintainable services, and workflow automation.
 
 ## Selected Work
-- [Vietnamese-Recruit-Onboard-Operate-Manage](https://github.com/NullNyx/Vietnamese-Recruit-Onboard-Operate-Manage) - Recruitment and operations workflow app with deployed web interface.
-- [battle-ship-svip](https://github.com/NullNyx/battle-ship-svip) - TypeScript project exploring game and interaction logic.
-- [code-compiler](https://github.com/NullNyx/code-compiler) - Practical compiler-style coding project.
-- [document-generator](https://github.com/NullNyx/document-generator) - Utility project for generating structured output.
+- [Vietnamese-Recruit-Onboard-Operate-Manage](https://github.com/NullNyx/Vietnamese-Recruit-Onboard-Operate-Manage) - Recruitment and operations platform with workflow-oriented architecture.
+- [battle-ship-svip](https://github.com/NullNyx/battle-ship-svip) - TypeScript project centered on state management and application logic.
+- [NullNyx](https://github.com/NullNyx/NullNyx) - My GitHub profile and project overview.
 
 ## Stack
-TypeScript, JavaScript, Python, Node.js, React, Express, PostgreSQL, Docker
+Node.js, TypeScript, Python, PostgreSQL, Express, Docker
 
 ## Contact
 - GitHub: [@NullNyx](https://github.com/NullNyx)
 - Email: nthengoc.dev@gmail.com
-- Company: AIDIA
-
-I care about useful software, clear implementation, and steady technical growth.
