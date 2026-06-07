@@ -1,0 +1,46 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The Ngoc Backend Engineer Banner</title>
+  <desc id="desc">Dark GitHub profile banner with backend engineering focus.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="64" x2="960" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1280" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+
+  <g opacity="0.18" filter="url(#blur)">
+    <circle cx="1040" cy="72" r="84" fill="#22D3EE"/>
+    <circle cx="1110" cy="220" r="72" fill="#14B8A6"/>
+    <circle cx="860" cy="260" r="56" fill="#38BDF8"/>
+  </g>
+
+  <g opacity="0.12">
+    <path d="M760 64H1160" stroke="#94A3B8" stroke-width="1"/>
+    <path d="M760 128H1184" stroke="#94A3B8" stroke-width="1"/>
+    <path d="M760 192H1140" stroke="#94A3B8" stroke-width="1"/>
+    <path d="M760 256H1200" stroke="#94A3B8" stroke-width="1"/>
+    <path d="M820 32V288" stroke="#94A3B8" stroke-width="1"/>
+    <path d="M940 32V288" stroke="#94A3B8" stroke-width="1"/>
+    <path d="M1060 32V288" stroke="#94A3B8" stroke-width="1"/>
+    <path d="M1180 32V288" stroke="#94A3B8" stroke-width="1"/>
+  </g>
+
+  <rect x="80" y="74" width="88" height="88" rx="20" fill="#0F172A" stroke="#1E293B"/>
+  <path d="M107 103H141" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M107 118H153" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
+  <path d="M107 133H133" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
+
+  <text x="200" y="112" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="0">The Ngoc</text>
+  <text x="200" y="154" fill="#22D3EE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="0">Backend Engineer</text>
+  <text x="200" y="204" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" letter-spacing="0">APIs • Data Systems • Developer Tooling</text>
+  <text x="200" y="240" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" letter-spacing="0">Node.js  •  TypeScript  •  Python  •  PostgreSQL  •  Docker</text>
+</svg>
