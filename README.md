@@ -1,10 +1,6 @@
 <div align="center">
 
-# The Ngoc
-
-**Backend Engineer**
-
-Building APIs, data systems, and developer tooling.
+<img src="https://raw.githubusercontent.com/NullNyx/NullNyx/main/assets/backend-banner.svg" alt="The Ngoc backend engineer banner" width="100%" />
 
 <p>
   <a href="https://github.com/NullNyx"><img src="https://img.shields.io/badge/GitHub-NullNyx-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
